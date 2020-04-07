@@ -1,0 +1,16 @@
+.login {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  background-color: #304156;
+  .login_content {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    right: 50px;
+    margin-top: -200px;
+    background: #fff;
+    border-radius: 8px;
+  }
+}

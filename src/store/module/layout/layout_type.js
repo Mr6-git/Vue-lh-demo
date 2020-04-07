@@ -1,0 +1,1 @@
+export const TAGGLE_MOVE = 'TAGGLE_MOVE';
