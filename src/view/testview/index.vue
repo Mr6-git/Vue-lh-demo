@@ -13,7 +13,6 @@ export default {
     }
   },
   mounted() {
-    console.log(process.env.LH_DEV_PAI)
   },
   methods: {
     login() {

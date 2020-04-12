@@ -5,12 +5,25 @@
   background-color: #304156;
   .login_content {
     position: absolute;
-    width: 600px;
-    height: 400px;
+    width: 450px;
     top: 50%;
-    right: 50px;
-    margin-top: -200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: #fff;
     border-radius: 8px;
+    padding: 30px;
+  }
+  .login_btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    border-radius: 5px;
+    background: #409eff;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing:20px;
+    cursor: pointer;
   }
 }
