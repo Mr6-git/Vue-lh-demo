@@ -4,8 +4,8 @@ import 'nprogress/nprogress.css' // 加载页面进度条样式
 
 NProgress.configure({ showSpinner: false })  //关闭加载转圈圈样式
 const whiteList = ['/login']
-const cookie = localStorage.getItem('cookie')
 router.beforeEach(async (to, from, next) => {
+  const cookie = localStorage.getItem("cookie")
   if (cookie) {
     if (to.path === 'login') {
       next({ path: '/' })
